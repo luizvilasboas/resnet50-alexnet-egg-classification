@@ -2,6 +2,11 @@
 
 Este projeto implementa uma solução baseada em Redes Neurais Convolucionais (CNNs) para classificar ovos em duas categorias: **danificados** (`damaged`) e **não danificados** (`not_damaged`). O treinamento e avaliação são realizados utilizando os modelos **ResNet50** e **AlexNet**, ambos implementados na biblioteca `torch` (PyTorch).
 
+## Links importantes
+
+1. [Artigo do trabalho](https://gitlab.com/olooeez/resnet50-alexnet-egg-classification/-/blob/main/docs/article.pdf?ref_type=heads)
+2. [Vídeo explicando](#TODO)
+
 ## Descrição do Projeto
 
 A classificação de ovos é uma tarefa essencial em várias indústrias para garantir a qualidade e a segurança do produto final. Este projeto utiliza imagens de ovos como entrada e classifica cada imagem em uma das duas categorias mencionadas. 
