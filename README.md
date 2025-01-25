@@ -5,7 +5,7 @@ Este projeto implementa uma solução baseada em Redes Neurais Convolucionais (C
 ## Links importantes
 
 1. [Artigo do trabalho](https://gitlab.com/olooeez/resnet50-alexnet-egg-classification/-/blob/main/docs/article.pdf?ref_type=heads)
-2. [Vídeo explicando](#TODO)
+2. [Vídeo explicando](https://www.youtube.com/watch?v=H3kxHcICjbU)
 
 ## Descrição do Projeto
 
