@@ -4,7 +4,7 @@ Este projeto implementa uma solução baseada em Redes Neurais Convolucionais (C
 
 ## Links importantes
 
-1. [Artigo do trabalho](https://gitlab.com/olooeez/resnet50-alexnet-egg-classification/-/blob/main/docs/article.pdf?ref_type=heads)
+1. [Artigo do trabalho](https://github.com/luizvilasboas/resnet50-alexnet-egg-classification/blob/main/docs/article.pdf)
 2. [Vídeo explicando](https://www.youtube.com/watch?v=Ijp6jcghPM8)
 
 ## Descrição do Projeto
@@ -27,7 +27,7 @@ A classificação de ovos é uma tarefa essencial em várias indústrias para ga
 
 1. Clone o repositório:
    ```
-   git clone https://gitlab.com/olooeez/resnet50-alexnet-egg-classification.git
+   git clone https://github.com/luizvilasboas/resnet50-alexnet-egg-classification.git
    cd resnet50-alexnet-egg-classification
    ```
 
@@ -62,4 +62,4 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou env
 
 ## Licença
 
-Este projeto está licenciado sob a [MIT License](https://gitlab.com/olooeez/resnet50-alexnet-egg-classification/-/blob/main/LICENSE).
+Este projeto está licenciado sob a [MIT License](https://github.com/luizvilasboas/resnet50-alexnet-egg-classification/blob/main/LICENSE).
