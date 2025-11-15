@@ -1,65 +1,81 @@
 # resnet50-alexnet-egg-classification
 
-Este projeto implementa uma solução baseada em Redes Neurais Convolucionais (CNNs) para classificar ovos em duas categorias: **danificados** (`damaged`) e **não danificados** (`not_damaged`). O treinamento e avaliação são realizados utilizando os modelos **ResNet50** e **AlexNet**, ambos implementados na biblioteca `torch` (PyTorch).
+> A CNN-based solution to classify eggs as damaged or not damaged, using the ResNet50 and AlexNet models with PyTorch.
 
-## Links importantes
+## About the Project
 
-1. [Artigo do trabalho](https://github.com/luizvilasboas/resnet50-alexnet-egg-classification/blob/main/docs/article.pdf)
-2. [Vídeo explicando](https://www.youtube.com/watch?v=Ijp6jcghPM8)
+This project implements a solution based on Convolutional Neural Networks (CNNs) to classify images of eggs into two categories: `damaged` and `not_damaged`. The training and evaluation are performed using two well-known models, ResNet50 and AlexNet, implemented with the PyTorch library.
 
-## Descrição do Projeto
+This work is also documented in the following resources:
+*   **[Project Article (Portuguese)](https://github.com/luizvilasboas/resnet50-alexnet-egg-classification/blob/main/docs/article.pdf)**
+*   **[Explanatory Video (Portuguese)](https://www.youtube.com/watch?v=Ijp6jcghPM8)**
 
-A classificação de ovos é uma tarefa essencial em várias indústrias para garantir a qualidade e a segurança do produto final. Este projeto utiliza imagens de ovos como entrada e classifica cada imagem em uma das duas categorias mencionadas. 
+## Tech Stack
 
-### Funcionalidades
+*   [Python](https://www.python.org/)
+*   [PyTorch](https://pytorch.org/)
+*   [CUDA](https://developer.nvidia.com/cuda-toolkit) (Optional, for GPU acceleration)
 
-1. **Treinamento de Modelos**: O treinamento é realizado usando dois modelos conhecidos: ResNet50 e AlexNet.
-2. **Avaliação de Performance**: Mede a precisão, perda e outras métricas para comparar os desempenhos dos modelos.
+## Usage
 
-## Requisitos
+Below are the instructions for you to set up and run the project locally.
 
-- Python 3.8 ou superior
-- PyTorch 2.0 ou superior
-- CUDA (opcional, para aceleração com GPU)
-- Bibliotecas adicionais listadas no arquivo `requirements.txt`
+### Prerequisites
 
-### Instalação
+You need to have the following software installed:
 
-1. Clone o repositório:
-   ```
-   git clone https://github.com/luizvilasboas/resnet50-alexnet-egg-classification.git
-   cd resnet50-alexnet-egg-classification
-   ```
+*   [Python](https://www.python.org/downloads/) (3.8 or higher)
+*   [PyTorch](https://pytorch.org/get-started/locally/) (2.0 or higher)
 
-2. Crie um ambiente virtual (opcional, mas recomendado):
-   ```
-   python -m venv venv
-   source venv/bin/activate
-   ```
+### Installation and Setup
 
-3. Instale as dependências:
-   ```
-   pip install -r requirements.txt
-   ```
+Follow the steps below:
 
-4. Certifique-se de que o diretório `dataset/` está configurado corretamente com o conjunto de dados que pode ser achado [aqui](https://www.kaggle.com/datasets/abdullahkhanuet22/eggs-images-classification-damaged-or-not).
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/luizvilasboas/resnet50-alexnet-egg-classification.git
+    ```
 
-## Instruções de Execução
+2.  **Navigate to the project directory**
+    ```bash
+    cd resnet50-alexnet-egg-classification
+    ```
 
-Execute o script de treinamento especificando o modelo que deseja usar:
-   ```
-   python3 train_alexnet.py
-   python3 train_resnet50.py
-   ```
+3.  **Create a virtual environment (recommended)**
+    ```bash
+    python -m venv venv
+    source venv/bin/activate
+    ```
+    *(On Windows, use `venv\Scripts\activate`)*
 
-## Resultados e Relatórios
+4.  **Install dependencies**
+    ```bash
+    pip install -r requirements.txt
+    ```
 
-Os resultados do treinamento, incluindo gráficos de precisão e perda, são salvos automaticamente no diretório `output/`. Você pode visualizar os modelos treinados no mesmo diretório.
+5.  **Download the dataset**
+    The dataset for this project can be found on Kaggle: [Eggs Images Classification (Damaged or Not)](https://www.kaggle.com/datasets/abdullahkhanuet22/eggs-images-classification-damaged-or-not). Download it and ensure the `dataset/` directory is configured correctly.
 
-## Contribuições
+### Workflow
 
-Contribuições são bem-vindas! Sinta-se à vontade para abrir uma issue ou enviar um pull request.
+To train the models, run the corresponding training scripts:
 
-## Licença
+*   **Train AlexNet:**
+    ```bash
+    python3 train_alexnet.py
+    ```
+*   **Train ResNet50:**
+    ```bash
+    python3 train_resnet50.py
+    ```
+Training results, including accuracy and loss graphs, will be saved automatically in the `output/` directory.
 
-Este projeto está licenciado sob a [MIT License](https://github.com/luizvilasboas/resnet50-alexnet-egg-classification/blob/main/LICENSE).
+## Contributing
+
+Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request.
+
+## License
+
+This project is licensed under the MIT License. See the `LICENSE` file for details.
